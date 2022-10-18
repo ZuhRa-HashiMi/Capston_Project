@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #272a31;
+    --secondary-color: #ec5242;
+    --tertiary-color: #d3d3d3;
+    --primary-font: primary-bold;
+    --secondary-font: "Lato", sans-serif;
+    --tertiary-font: primary-light;
+  }
+  
+  @font-face {
+    font-family: primary-bold;
+    src: url("fonts/cocogoosePro-trial.ttf");
+  }
+  
+  @font-face {
+    font-family: primary-light;
+    src: url("fonts/cocogooseProUltralight-trial.ttf");
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+  }
+  /* Header Section */
+  .header{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
