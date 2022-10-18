@@ -173,7 +173,69 @@
     padding: 20px;
 
   }
+  #main-program .title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--tertiary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #main-program hr {
+    width: 40px;
+    background-color: var(--secondary-color);
+    height: 2px;
+    border: none;
+  }
+  .main-program{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .main-program div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgb(204 204 204 / 10%);
+    align-items: center;
+    padding: 20px;
+  }
 
+  .main-program img{
+    width: 30px;
+    height: auto;
+    flex: 0.5 1 0;
+  }
+  .main-program h3{
+    color: var(--secondary-color);
+    flex: 1.2 1 0;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  
+.main-program p {
+    color: var(--tertiary-color);
+    flex: 3 1 0;
+    font-size: 12px;
+  }
+  
+#main-program .desk {
+    display: none;
+    cursor: pointer;
+  }
+  #main-program .mob {
+    padding: 20px;
+    text-align: center;
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+  }  
 
 
 
