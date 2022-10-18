@@ -41,16 +41,77 @@
     transition: transform 0.5s ease-in;
 }
 
+.logo{
+    display: none;
+}
 
+#navbar ul{
+    padding-top: 100px;
+    padding-right: 20%;
+    padding-left: 30px;
 
+}
 
+#navbar ul li {
+    list-style-type: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 20px 10px;
+    border-bottom: solid var(--secondary-color) 3px;
+    font-size: 22px;
+  }
 
+  #navbar ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+  }
 
+  #navbar ul li a:hover{
+    color: var(--secondary-color);
+  }
 
+  .last-link {
+    border: none !important;
+  }
 
+  .focused {
+    text-align: center;
+    margin-top: 40px;
+    border: none !important;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 5px 5px 15px var(--primary-color);
+  }
+  
+  .humberger{
+    position: fixed;
+    z-index: 9999;
+    padding: 30px;
+    cursor: pointer;
+  }
 
+  .humberger div {
+    width: 35px;
+    background-color: var(--primary-color);
+    margin: 6px;
+    height: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 
+  }
 
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-9px, 9px);
+  }
+  .toggle .line2{
+    opacity: 0;
+
+  }
+
+  .toggle .line3{
+    transform: rotate(45deg) translate(-10px, 10px);
+
+  }
 
 
 
