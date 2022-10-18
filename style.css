@@ -235,7 +235,16 @@
     font-weight: 600;
     font-size: 12px;
     cursor: pointer;
-  }  
+  }
+
+  /* Featured section */
+
+  #featured-speaker {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    align-items: center;
+  }
 
 
 
