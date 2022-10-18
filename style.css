@@ -41,6 +41,11 @@
     transition: transform 0.5s ease-in;
 }
 
+.nav-active {
+    transform: translateX(0) !important;
+  }
+  
+
 .logo{
     display: none;
 }
@@ -109,9 +114,66 @@
   }
 
   .toggle .line3{
-    transform: rotate(45deg) translate(-10px, 10px);
+    transform: rotate(45deg) translate(-10px, -10px);
 
   }
+
+  .intro{
+    background-image: url("./assets/images/desktopbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 20px;
+  }
+  .intro h2{
+    padding-top: 70px;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .intro h1{
+    padding-top: 5px;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: var(--secondary-color);
+    padding-bottom: 30px;
+    line-height: 2rem;
+  }
+  .intro .bio{
+    border: solid 3px #fff;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 12px;
+    font-size: 12px;
+    line-height: 1.2rem;
+  }
+  .intro .time {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+
+  .intro .address {
+    padding-top: 20px;
+    font-family: var(--secondary-font);
+    font-size: 13px;
+    padding-bottom: 70px;
+  }
+  /* Main Program Section */
+  #main-program {
+    background-image: url("./assets/images/pattern_bg.png");
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+  }
+
 
 
 
