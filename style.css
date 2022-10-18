@@ -278,6 +278,24 @@
     width: 80px;
     cursor: pointer;
   }
+
+  /* Footer Section */
+  #footer {
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
+
+  #footer img {
+    width: 80px;
+  }
+  
+  #footer p {
+    font-size: 12px;
+    width: 60%;
+  }
   
 
 
