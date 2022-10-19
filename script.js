@@ -64,3 +64,38 @@ const popMenu = () => {
         'Ryan had been leading open-source projects at the Mozila foundation such as the open source movement.',
     },
   ];
+
+  const speakerS = document.querySelector('#featured-speaker');
+  const header = document.createElement('div');
+  header.className = 'titlesection';
+  header.innerHTML = `<h2 class="title">Featured Speaker</h2>
+  <hr/>`;
+  speakerS.appendChild(header);
+  for (let i = 0; i < speakers.length; i += 1) {
+    const speakerSection = document.querySelector('#speakers');
+    const flextItem = document.createElement('div');
+    flextItem.className = 'grid-item';
+    const image = document.createElement('img');
+    image.src = speakers[i].photo;
+    image.alt = speakers[i].altText;
+    flextItem.appendChild(image);
+    const flexdiv = document.createElement('div');
+    flexdiv.className = 'speaker';
+    const h4 = document.createElement('h4');
+    h4.textContent = speakers[i].name;
+    flexdiv.appendChild(h4);
+    const position = document.createElement('p');
+    position.className = 'profession';
+    position.textContent = speakers[i].profession;
+    flexdiv.appendChild(position);
+    const line = document.createElement('div');
+    line.className = 'divider';
+    flexdiv.appendChild(line);
+    const flexdesc = document.createElement('p');
+    flexdesc.className = 'description';
+    flexdesc.textContent = speakers[i].details;
+    flexdiv.appendChild(flexdesc);
+    flextItem.appendChild(flexdiv);
+    speakerSection.appendChild(flextItem);
+
+  }
