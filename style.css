@@ -501,6 +501,24 @@
   border: none;
 }
 
+#footer-about {
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  color: black;
+}
+
+
+#footer-about img {
+  width: 80px;
+}
+
+#footer-about p {
+  font-size: 12px;
+  width: 60%;
+}
 
 
   
