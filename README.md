@@ -1,9 +1,9 @@
 # Capston_Project
 
 - Mobile ScreenShot
-- ![Mobile screenshot](./assets/images/mobile.png).
+- ![screenshot](.assets/images/mobile.png)
 - Desktop ScreenShot
-- ![Desktop screenshot](./assets/images/disktop.png).
+-![screenshot](./assets/images/desktopbg.jpg)
 - [Video Demo](https://zuhra-hashimi.github.io/Capston_Project/).
 
 
