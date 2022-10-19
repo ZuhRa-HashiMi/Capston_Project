@@ -348,6 +348,49 @@
     font-weight: 700;
     text-decoration: underline;
   }
+
+  #co-logo{
+    background-color: var(--tertiary-color);
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #co-logo h3{
+    font-family: var(--secondary-font);
+    text-align: center;
+    width: 60%;
+  }
+
+  #co-logo hr {
+    width: 30px;
+    background-color: var(--tertiary-color);
+    height: 2px;
+    margin: -20px 0;
+    border: none;
+  }
+
+  #co-logo .desktop {
+    display: none;
+  }
+
+  #co-logo .mobile {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  
+#co-logo img {
+  border: solid 2px #fff;
+  padding: 30px 90px;
+}
+
+  
+  
+
+
   
 
 
