@@ -710,6 +710,70 @@
   display: none;
 }
 
+/* Partner Section */
+#partner {
+  padding: 30px;
+}
+.partner {
+  gap: 50px;
+}
+#footer {
+  padding: 50px;
+  justify-content: space-evenly;
+}
+
+#footer p {
+  width: auto;
+}
+/* About Me Section */
+.about-me {
+  padding: 50px 80px 40px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#about h2 {
+  display: none;
+}
+#about h1 {
+  max-width: 380px;
+  align-self: center;
+}
+#about .bio {
+  max-width: 600px;
+}
+.events {
+  display: flex;
+  column-gap: 20px;
+}
+
+.event1 {
+  width: 350px;
+}
+.event2 {
+  width: 350px;
+}
+#partner-about {
+  visibility: hidden;
+}
+#footer-about {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+#footer-about img {
+  background-color: var(--tertiary-color);
+  width: 80px;
+  padding: 15px 0 0 15px;
+}
+#footer-about p {
+  font-size: 12px;
+  width: 60%;
+  color: white;
+}
+
 
 
 
