@@ -623,6 +623,92 @@
 .humberger div {
   display: none;
 }
+/* Introduction Section */
+.intro {
+  height: auto;
+  padding: 30px 120px;
+}
+
+.intro h2 {
+  padding-top: 50px;
+  font-size: 34px;
+}
+.intro h1 {
+  width: 80%;
+  font-size: 56px;
+  line-height: 3.5rem;
+}
+
+.intro .bio {
+  width: 65%;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+.intro .time {
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.intro .address {
+  padding-top: 20px;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  padding-bottom: 70px;
+}
+/* Main Program Section */
+#main-program {
+  padding: 20px 50px 50px;
+}
+#main-program .title {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.main-program{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 3px;
+ 
+}
+.main-program div{
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  justify-items: center;
+  grid-template-rows: 20px 10px auto;
+}
+
+.main-program div:hover {
+  border: solid 3px var(--tertiary-color);
+}
+
+
+.main-program h3 {
+  color: var(--secondary-color);
+  flex: 1.2 1 0;
+  font-size: 12px;
+  font-weight: 800;
+}
+.main-program p {
+  color: var(--tertiary-color);
+  font-size: 12px;
+  text-align: center;
+}
+#main-program .desk {
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+  color: var(--tertiary-color);
+  border-bottom: solid 2px var(--tertiary-color);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#main-program .mob {
+  display: none;
+}
 
 
 
