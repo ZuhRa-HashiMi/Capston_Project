@@ -612,6 +612,15 @@
     width: 30px;
     height: auto;
   }
+
+  .grid-item img {
+    height: 150px;
+    background-image: url("./assets/images/patern.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    margin: 15px 0 0 15px;
+  }
+
   
   .partner img {
     padding-top: 20px;
@@ -765,6 +774,20 @@
 
 #main-program .mob {
   display: none;
+}
+
+/* Featured section */
+#featured-speaker {
+  padding: 30px 120px;
+}
+#speakers {
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;
+}
+
+.grid-item h4 {
+  margin-top: 15px;
 }
 
 /* Partner Section */
