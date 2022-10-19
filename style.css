@@ -245,6 +245,64 @@
     padding: 30px 20px;
     align-items: center;
   }
+  .titlesection {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #featured-speaker .title {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #featured-speaker hr {
+    width: 40px;
+    background-color: var(--secondary-color);
+    height: 2px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  #speakers {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-item {
+    padding: 15px 0;
+    display: flex;
+    gap: 15px;
+  }
+  .grid-item img {
+    height: 120px;
+    background-image: url("./assets/images/patern.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    padding: 15px 0 0 15px;
+  }
+
+  .speaker h4 {
+    font-family: var(--secondary-font);
+    font-size: 15px;
+  }
+  .profession {
+    font-size: 14px;
+    color: var(--secondary-color);
+  }
+  
+.divider {
+  background-color: var(--tertiary-color);
+  height: 2px;
+  width: 30px;
+  margin: 10px 0;
+}
+.speaker .description {
+  font-size: 12px;
+}
+  
+  
 /* Partners section */
 #partner {
     background-color: var(--primary-color);
