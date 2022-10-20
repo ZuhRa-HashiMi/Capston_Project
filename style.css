@@ -46,6 +46,11 @@
   transform: translateX(0) !important;
 }
 
+.quick-link {
+  display: block;
+  float: right;
+}
+
 .logo {
   display: none;
 }
@@ -666,10 +671,6 @@
     box-shadow: none;
     padding: 0 10%;
     align-items: center;
-  }
-
-  .quick-link {
-    display: block;
   }
 
   .logo {
