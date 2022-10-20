@@ -421,7 +421,7 @@
   padding: 12px;
   font-size: 15px;
   line-height: 1.2rem;
-  align-items: center;
+  text-align: center;
 }
 
 #about .ad-det {
