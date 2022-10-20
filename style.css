@@ -96,7 +96,7 @@
 
 .humberger div {
   width: 35px;
-  background-color: var(--primary-color);
+  background-color: gray;
   margin: 6px;
   height: 7px;
   cursor: pointer;
