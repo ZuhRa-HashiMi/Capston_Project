@@ -316,7 +316,6 @@
   font-size: 12px;
 }
 
-
 /* Partners section */
 #partner {
   background-color: var(--primary-color);
@@ -599,7 +598,6 @@
   color: var(--primary-color);
   color: #fff;
 }
-
 
 /* Desktop Version */
 @media screen and (min-width: 768px) {
