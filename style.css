@@ -729,14 +729,14 @@
   }
 
   .intro h1 {
-    width: 80%;
+    width: 50%;
     font-size: 56px;
     line-height: 3.5rem;
   }
 
   .intro .bio {
-    width: 65%;
-    font-size: 16px;
+    width: 43%;
+    font-size: 15px;
     line-height: 1.5rem;
   }
 
