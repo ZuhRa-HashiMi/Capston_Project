@@ -69,7 +69,7 @@
 
 #navbar ul li a {
   text-decoration: none;
-  color: var(--primary-color);;
+  color: var(--primary-color);
 }
 
 #navbar ul li a:hover {
@@ -702,7 +702,6 @@
     margin: 0;
     box-shadow: none;
     border: solid 3px var(--secondary-color) !important;
-   
   }
 
   .focused:hover {
