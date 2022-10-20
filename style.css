@@ -416,7 +416,7 @@
 
 #about .bio {
   border: solid 3px #fff;
-  background-color: var(--tertiary-color);
+  background-color: #fff;
   color: var(--primary-color);
   padding: 12px;
   font-size: 15px;
