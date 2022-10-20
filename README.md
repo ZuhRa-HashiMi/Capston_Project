@@ -4,7 +4,7 @@
 -![screenshot](./assets/images/mobile.png)
 - Desktop ScreenShot
 -![screenshot](./assets/images/disktop.png)
-- [Video Demo](https://zuhra-hashimi.github.io/Capston_Project/).
+- [Video Demo](https://www.loom.com/share/81b9a47f596b4e678dc59548c8ed4cf3).
 
 
 ### Prerequisites

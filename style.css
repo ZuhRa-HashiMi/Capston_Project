@@ -614,6 +614,7 @@
     background-color: var(--primary-color);
     font-family: var(--tertiary-font);
     font-weight: 600;
+    color: #fff;
   }
 
   .header a {
