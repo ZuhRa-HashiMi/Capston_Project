@@ -33,7 +33,7 @@ const speakers = [
       'Helped brin the software to Asia and is an outspoken advocate for the open web and digital commons. in 2020, he was  inducted into the inaugural class of the Software Society/s.',
   },
   {
-    photo: 'assets/images/pic3.png',
+    photo: 'assets/images/pic3.jpg',
     altText: 'Yochai Benkler image',
     name: 'Yochai Benkler',
     profession: 'Designer',
@@ -41,7 +41,7 @@ const speakers = [
       'as the main veneu for new media art production, Benkler promotes cross-disciplinary collaboration and understanding among science technology, humanities and the arts',
   },
   {
-    photo: 'assets/images/pic4.png',
+    photo: 'assets/images/pic4.jpg',
     altText: 'Julia Leda image',
     name: 'Julia Leda',
     profession: 'President of Young Pirates of Europe',
@@ -49,7 +49,7 @@ const speakers = [
       "European ingetration, political democracy and participation of youth through online as her major condern, Reda's report outlining potential changes to EU copyright law was approved by the Parliamnet in August.",
   },
   {
-    photo: 'assets/images/pic5.png',
+    photo: 'assets/images/pic5.jpg',
     altText: 'Kilnam Chon image',
     name: 'Kilnam Chon',
     profession: 'Exceutive Director of the Wikimedia',
@@ -57,7 +57,7 @@ const speakers = [
       'Chon is the executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. is freely available in 290 languages and used by nearly half a bilion people around the world every month.',
   },
   {
-    photo: 'assets/images/pic6.png',
+    photo: 'assets/images/pic6.jpg',
     altText: 'Ryan Merkley image',
     name: 'Ryan Merkley',
     profession: 'CEO of Creative Commons',
