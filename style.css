@@ -439,7 +439,7 @@
 }
 
 #co-logo {
-  background-color: var(--tertiary-color);
+  background-color: #fff;
   padding: 30px 20px;
   display: flex;
   flex-direction: column;

@@ -36,3 +36,7 @@
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+## Design Credits
+
+- Design: [@Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
