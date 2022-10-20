@@ -58,16 +58,13 @@
 
 #navbar ul li {
   list-style-type: none;
-  color: var(--primary-color);
-  font-weight: 600;
   padding: 20px 10px;
   border-bottom: solid var(--secondary-color) 3px;
-  font-size: 22px;
 }
 
 #navbar ul li a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-color);;
 }
 
 #navbar ul li a:hover {
@@ -685,13 +682,13 @@
     align-items: center;
     flex-direction: row;
     padding: 20px 0;
-    gap: 30px;
+    gap: 40px;
   }
 
   #navbar ul li {
     border: none;
     padding: 0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
   }
 
@@ -704,6 +701,7 @@
     margin: 0;
     box-shadow: none;
     border: solid 2px var(--secondary-color) !important;
+   
   }
 
   .focused:hover {
