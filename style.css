@@ -139,10 +139,10 @@
 
 .intro .bio {
   border: solid 3px #fff;
-  background-color: var(--tertiary-color);
-  color: var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-font);
   padding: 12px;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.2rem;
 }
 
