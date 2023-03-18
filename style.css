@@ -658,7 +658,7 @@
 
   /* Navbar */
   #navbar {
-    position: static;
+    position: fixed;
     display: flex;
     transform: translateX(0);
     z-index: 99;
